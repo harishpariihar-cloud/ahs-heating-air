@@ -3,14 +3,17 @@ import { Route, Switch, useLocation } from "wouter";
 import { ArrowUpRight, Check, ChevronDown, Clock3, ExternalLink, Flame, Home as HomeIcon, MapPin, Menu, Phone, ShieldCheck, Snowflake, Star, Thermometer, Wrench, X, Zap } from "lucide-react";
 import { useRef, useState } from "react";
 import "./index.css";
+import heroImage from "./assets/ahs-hero.webp";
+import technicianImage from "./assets/ahs-technician.webp";
+import installationImage from "./assets/ahs-installation.webp";
 
 const PHONE = "352-843-3468";
 const TEL = "tel:+13528433468";
 const MAP = "https://maps.app.goo.gl/9pPgTumWVu12mjkA7";
 const ADDRESS = "7 Hemlock Terrace Ln, Ocala, FL 34472";
-const hero = "/manus-storage/ahs-hero_a854a711.jpg";
-const technician = "/manus-storage/ahs-technician_1c6953e5.jpg";
-const installation = "/manus-storage/ahs-installation_56a39cbb.jpg";
+const hero = heroImage;
+const technician = technicianImage;
+const installation = installationImage;
 
 const services = [
   ["heating-repair-ocala", "Heating Repair", "Keep your Ocala home comfortable with practical, responsive heating repair for furnaces, heat pumps, and whole-home systems."],
